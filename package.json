@@ -2,13 +2,13 @@
   "name": "blog-client",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "ruoyu <hunger@jirengu.com>",
+  "author": "tgbf2020@163.com",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "upload": "npm run build; cd dist; git init; git add .; git commit -am \"init\"; git remote add origin git@github.com:jirengu-inc/vue-blog-preview.git; git push -f origin master;",
+    "upload": "npm run build; cd dist; git init; git add .; git commit -am \"init\"; git remote add origin git@github.com:tgbf2674/vue-blog.git; git push -f origin master;",
     "zip": "rm -f *.zip && zip  -r `git branch | grep '\\* ' | cut -d ' ' -f 2`.zip . -x 'node_modules/*'"
   },
   "dependencies": {
